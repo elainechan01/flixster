@@ -15,6 +15,7 @@
 		DB06B6CA26F921AB0023793E /* flixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06B6C926F921AB0023793E /* flixsterTests.swift */; };
 		DB06B6D526F921AB0023793E /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06B6D426F921AB0023793E /* flixsterUITests.swift */; };
 		DB06B6E326F928170023793E /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06B6E226F928170023793E /* MoviesViewController.swift */; };
+		DB06B6E526F9308D0023793E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06B6E426F9308D0023793E /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DB06B6D426F921AB0023793E /* flixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixsterUITests.swift; sourceTree = "<group>"; };
 		DB06B6D626F921AB0023793E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB06B6E226F928170023793E /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		DB06B6E426F9308D0023793E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				DB06B6B226F921A90023793E /* AppDelegate.swift */,
 				DB06B6B426F921A90023793E /* SceneDelegate.swift */,
 				DB06B6B826F921A90023793E /* Main.storyboard */,
+				DB06B6E426F9308D0023793E /* MovieCell.swift */,
 				DB06B6BB26F921AB0023793E /* Assets.xcassets */,
 				DB06B6BD26F921AB0023793E /* LaunchScreen.storyboard */,
 				DB06B6C026F921AB0023793E /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				DB06B6B326F921A90023793E /* AppDelegate.swift in Sources */,
 				DB06B6B526F921A90023793E /* SceneDelegate.swift in Sources */,
+				DB06B6E526F9308D0023793E /* MovieCell.swift in Sources */,
 				DB06B6E326F928170023793E /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
