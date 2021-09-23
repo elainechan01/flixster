@@ -51,6 +51,7 @@
                                             <outlet property="posterView" destination="fjy-y2-oAb" id="Qew-o8-lNQ"/>
                                             <outlet property="synopsisLabel" destination="O24-kX-0IJ" id="mZ8-Y6-PNV"/>
                                             <outlet property="titleLabel" destination="vG1-E7-nyQ" id="1S5-Tz-Cfs"/>
+                                            <segue destination="2JZ-l8-hPa" kind="show" id="bND-5i-65h"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -67,6 +68,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="137.94642857142856"/>
+        </scene>
+        <!--Movie Details View Controller-->
+        <scene sceneID="58i-09-kJU">
+            <objects>
+                <viewController id="2JZ-l8-hPa" customClass="MovieDetailsViewController" customModule="flixster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9kC-oU-JaG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="S63-Vh-IuD"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CLV-aM-zjN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1qw-kV-7QE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1752" y="138"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TKG-UL-Vay">
